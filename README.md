@@ -8,7 +8,7 @@ Tested with cargo version 1.86.0.
 
 # Dataset
 
-Download the dataset from [] and place it into the root of this project.
+Download the dataset from https://zenodo.org/records/15420470 and place it into the root of this project.
 The individual sample files should be located in a subfolder called 'BlindSpot_dataset'.
 
 # Usage
