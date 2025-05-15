@@ -18,7 +18,7 @@ Provide the transmit gain and optionally a filter string to address a specific S
 
 Without any other arguments, the script will transmit the blinding signal indefinitely.
 
-If you provide the path to a sample file containing benign traffic (multiple files included in the dataset), the signals will be mixed and transmitted from hte same SDR, with configurable relative attenuation.
+If you provide the path to a sample file containing benign traffic (multiple files included in the dataset), the signals will be mixed and transmitted from the same SDR, with configurable relative attenuation.
 
 To collect the number of received frames per subchannel from the gateway, configure it to forward received frames via the semtech udp protocol to your client on port 1730 and provide the '--collect-results' flag.
 The results will then be written into a csv file suitable for postprocessing with the scripts provided as artifacts to the paper.
