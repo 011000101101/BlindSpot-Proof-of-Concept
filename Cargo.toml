@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-futuresdr = { version = "0.0.38", features = ["default", "seify"] }
+futuresdr = { version = "0.0.38", features = ["default", "seify", "soapy"] }
 clap = { version = "4.5.38", features = ["derive"] }
 semtech-udp = { version = "0.11.0", features = ["client", "server"] }
 tokio = { version = "1.45.0", features = ["rt-multi-thread"] }
